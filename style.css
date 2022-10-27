@@ -1,0 +1,77 @@
+.best-value::before{
+    content: "BEST VALUE";
+    width: 88px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    position : relative;
+    bottom: 12px;
+    padding-top: 2px;
+    background: #0393FB;
+    border: 3px solid #FFFFFF;
+    border-radius: 13.5px;
+    margin: 0 auto;
+}
+.best-value-ups::before{
+    content: "BEST VALUE";
+    width: 88px;
+    height: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    position : relative;
+    bottom: 12px;
+    padding-top: 2px;
+    background: #FB9F2D;
+    border: 3px solid #FFFFFF;
+    border-radius: 13.5px;
+    margin: 0 auto;
+}
+.ups::before{
+    content: "";
+    position : relative;
+    margin: 0 auto;
+    width: 196px;
+    height: 50.33px;
+    bottom: 25px;
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    border-radius: 21.5px;
+}
+
+.pricing-1::before{
+    content: url(img/backround3.svg);
+    position: absolute;
+    left: 210px;
+    transform: translateY(-40px);
+}
+.pricing-1::after{
+    content: url(img/e.png);
+    position : relative;
+    margin: 0 auto;
+    bottom: 600px;
+    /* z-index: -1; */
+    /* width: 50%; */
+}
+
+.quotes{
+    Width: 350px;
+    Height: 141.44px;
+    border-radius: 10px;
+    border: 1px solid #EDF1F5;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+}
+.quotes p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
