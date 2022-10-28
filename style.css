@@ -75,3 +75,71 @@
     font-feature-settings: 'salt' on, 'liga' off;
     color: #18191F;
 }
+.hc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hc a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 200 */
+
+    color: #EEEFF4;
+}
+
+.hc ul{
+    list-style: none;
+}
+.hc li{
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+
+}
+#contact{
+    margin-left: 216px;
+}
+#legal, #account{
+    margin-left: 70px;
+}
+.hc h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 100 */
+    margin-bottom: 32px;
+    color: #F4F5F7;
+
+}
+.hc a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+    text-decoration: none;
+    list-style: none;
+    /* Text / Gray 200 */
+
+    color: #EEEFF4;
+}
